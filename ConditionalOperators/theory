@@ -1,1 +1,5 @@
-
+The conditional operator in C, also known as the ternary operator, provides a concise way to write simple if-else statements. It evaluates a condition and returns one of two expressions based on whether the condition is true or false.
+Syntax:condition ? expression_if_true : expression_if_false;
+condition: A boolean expression that evaluates to true (non-zero) or false (zero).
+expression_if_true: The expression returned if the condition is true.
+expression_if_false: The expression returned if the condition is false.
