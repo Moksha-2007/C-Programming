@@ -1,1 +1,9 @@
 
+Relational operators in C are used to compare two operands and determine the relationship between them. They return a boolean value (1 for true, 0 for false).
+The relational operators in C are:
+== (Equal to): Checks if two operands are equal.
+!= (Not equal to): Checks if two operands are not equal.
+> (Greater than): Checks if the left operand is greater than the right operand.
+< (Less than): Checks if the left operand is less than the right operand.
+>= (Greater than or equal to): Checks if the left operand is greater than or equal to the right operand. 
+<= (Less than or equal to): Checks if the left operand is less than or equal to the right operand. 
