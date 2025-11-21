@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch;
+	clrscr();
+	printf("Enter a Alphabet\n");
+	scanf("%c",&ch);
+	switch(ch)
+	{
+	 case 'a':
+	 case 'e':
+	 case 'i':
+	 case 'o':
+	 case 'u':
+		printf("Given Alphabet is an vowel");
+		 break;
+				default:
+			printf("Given alphabet is consonant");
+			   }
+			   getch();
+			   }
