@@ -1,0 +1,11 @@
+// Program on Comparision of Two Numbers
+#include<stdio.h>
+int main()
+{
+    int  a=100,b=200;
+     printf("a=%d\t b=%d",a,b);
+     printf("\n(a>b)=%d",(a>b));
+     printf("\n(a<b)=%d",(a<b));
+     printf("\n(a==b)%d",(a==b));
+     printf("\n(a!=b)%d",(a!=b));
+}
