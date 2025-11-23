@@ -1,0 +1,36 @@
+A while loop in C is a control flow statement that repeatedly executes a block of code as long as a specified Boolean condition remains true. It is an entry-controlled loop, meaning the condition is evaluated before the loop body is executed in each iteration. 
+Syntax
+The basic syntax of a while loop is as follows:
+while (condition)
+{
+    // Code to be executed repeatedly
+    // Update expression (to eventually make the condition false)
+}
+while: The keyword that starts the loop.
+condition: A logical expression (any non-zero value is considered true, zero is false) that is evaluated before each iteration. The loop continues as long as this condition is true.
+Loop Body: The statement or block of statements enclosed in curly braces ({}) that is executed if the condition is true. It is crucial to include a statement within the body that eventually makes the condition false, to prevent an infinite loop. 
+How it Works
+The execution flow of a while loop is a straight forward process: 
+Condition Check: The program first evaluates the condition.
+Execution (if True): If the condition is true, the code inside the loop body is executed.
+Iteration: After the loop body finishes executing, the control returns to Step 1, and the condition is checked again.
+Termination (if False): If the condition is false from the beginning, the loop body is skipped entirely, and program execution continues with the statement immediately following the while loop. 
+Example
+This example demonstrates how to use a while loop to print numbers from 1 to 5:
+#include <stdio.h>
+int main() 
+{
+    int i = 1; // Initialization of loop control variable
+    while (i <= 5) // Condition check before each iteration
+    {
+        printf("%d ", i); // Loop body
+        i++;             // Update expression (increment i)
+    }
+    return 0;
+}
+Output:
+1 2 3 4 5
+Key Characteristics
+Entry-Controlled: The condition is checked at the start, so the loop may execute zero times if the condition is initially false.
+Flexible Iteration: It is best used when the number of iterations is not known in advance and depends on a dynamic condition (e.g., reading user input until a specific value is entered).
+Potential for infinite loops:If the condition in a while loop never becomes false, the loop will run indefinitely. This can be intentional for tasks like system monitoring (while(1)), but must be handled carefully with a break statement or an appropriate update expression.
