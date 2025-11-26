@@ -1,12 +1,15 @@
-#include <stdio.h>
-int Even(int num) {
+#include<stdio.h>
+#include <conio.h>
+int Even(int num) 
+{
     if (num % 2 == 0)
         return 1;   
     else
         return 0;   
 }
 
-int main() {
+int main() 
+{
     int num;
     
     printf("Enter a number: ");
@@ -19,3 +22,4 @@ int main() {
 
     return 0;
 }
+
