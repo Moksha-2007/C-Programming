@@ -1,3 +1,4 @@
+//Write a program to print the summ of 1 to 10 numbers..
 #include <stdio.h>
 int sum_numbers(int n);
 int main() 
