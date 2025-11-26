@@ -1,0 +1,34 @@
+The increment (++) and decrement (--) operators are unary operators common in programming languages like C, C++, Java, and others. Their sole purpose is to change the value of an integer or floating-point variable by exactly one unit. 
+They are unique because they can be used in two different forms: prefix (before the variable) and postfix (after the variable). The result of the operation depends on when the value is updated relative to when it is used in the rest of the expression. 
+The INCREMENT Operator (++)
+The increment operator adds 1 to its operand. 
+	PRE INCREMENT (++x)
+In the prefix form, the variable's value is incremented first, and the new value is then used in the surrounding expression. 
+	FOR INSTANCE; 
+		int a = 5;
+		int b = ++a;	
+			1. a becomes 6.
+			2. b is assigned the new value of a (6).	
+     POST INCREMENT (x++)
+In the post form, the variable's original value is used first in the surrounding expression, and then the variable is incremented afterwards. 
+	FOR INSTANCE;
+         	int a = 5;
+         	int b = a++;	
+			1. b is assigned the original value of a (5).
+			2. a becomes 6.	
+The DECREMENT Operator (--):
+The decrement operator subtracts 1 from its operand. 
+	PRE DECREMENT (--x)
+In the pre form, the variable's value is decremented first, and the new value is then used in the surrounding expression.
+	FOR INSTANCE; 
+		int a = 5;
+		int b = --a;	
+			1. a becomes 4.
+			2. b is assigned the new value of a (4).
+ 	POST DECREMENT (x--)
+In the post form, the variable's original value is used first in the surrounding expression, and then the variable is decremented afterwards. 
+	FOR INSTACNCE;
+		int a = 5;
+		int b = a--;	
+			1. b is assigned the original value of a (5).
+			2. a becomes 4.
