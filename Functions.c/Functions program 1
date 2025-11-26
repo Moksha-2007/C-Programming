@@ -1,3 +1,4 @@
+//Write a code to find the given number is Even or Odd....
 #include<stdio.h>
 #include <conio.h>
 int Even(int num) 
@@ -22,4 +23,5 @@ int main()
 
     return 0;
 }
+
 
