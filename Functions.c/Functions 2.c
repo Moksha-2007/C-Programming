@@ -1,3 +1,4 @@
+//Write a code to print the individual digits of a given number....
 #include <stdio.h>
 void print_digits(int n);
 int main() 
