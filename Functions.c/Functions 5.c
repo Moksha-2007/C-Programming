@@ -1,3 +1,4 @@
+//Write a code to print the reverse of a given number
 #include <stdio.h>
 int reverse_number(int n);
 int main() 
