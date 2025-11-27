@@ -1,0 +1,12 @@
+RECURSION:
+   Recursion in C is a programming technique where a function calls itself to solve a problem. This approach is particularly useful for problems that can be broken down into smaller, self-similar sub-problems. 
+	KEY COMPONENTS OF RECURSION:
+		BASE CASE: 
+			This is the essential condition that defines when the recursion should stop. Without a proper base case, a recursive function would call itself indefinitely, leading to a stack overflow error. The base case provides a direct solution for the simplest form of the problem.
+		RECURSIVE CASE: 
+			*This part of the function contains the recursive call, where the function invokes itself with a modified input, typically a smaller or simpler version of the original problem. This step moves the problem closer to the base case.
+		HOW RECURSION WORKS:
+			*When a recursive function is called, a new instance of the function is created on the call stack. 
+                                *This process repeats with each recursive call until the base case is reached. 
+                                    *Once the base case returns a value, the function instances on the stack start to unwind. 
+                                         *Returning values to their respective callers and eventually resolving the original problem.
