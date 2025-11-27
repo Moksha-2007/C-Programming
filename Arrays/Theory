@@ -1,0 +1,18 @@
+ARRAYS:
+    *An array in C is a collection of elements of the same data type stored in contiguous memory locations. It is a way to store multiple values of the same type under a single variable name. Instead of declaring individual variables for each value, an array allows you to manage and access these values efficiently using an index. Array indices in C start from 0. 
+    TYPES OF ARRAYS:
+           *Arrays in C are primarily classified based on their dimensionality:
+
+  		*ONE-DIMENSIONAL ARRAY(SINGLE-DIMENSIONAL ARRAY):
+                         *This is the simplest form of an array, representing a linear list of elements.
+                           *Elements are accessed using a single index.
+
+          DECLARATION SYNTAX:
+                    dataType arrayName[size];
+
+                 *TWO-DIMENSIONAL ARRAY(2D ARRAY OR MATRIX):
+                      *Can be thought of as an array of arrays, representing data in rows and columns.
+                        *Elements are accessed using two indices: one for the row and one for the column.
+
+           DECLARATION SYNTAX:  
+                       dataType arrayName[rows][columns];
