@@ -1,0 +1,64 @@
+#include <stdio.h>
+int main() 
+{
+    int item, qty;
+    char ch;
+    int total = 0;
+    int count = 0;
+    char *names[] = {
+        "Invalid",
+        "Amul Cheese",
+        "Five Star Chocolate",
+        "Coke",
+        "Maza",
+        "Samosa",
+        "Milk shake",
+        "Ice cream",
+        "Doritos",
+        "Kinderjoy",
+        "Thumsup",
+        "Pulpy orange",
+    };
+    int prices[] = {0, 10, 20, 25, 30, 10, 70, 50, 50, 60, 25, 25};
+    printf("\n*** SUPERMARKET BILLING SYSTEM ***\n");
+    printf("---------------------------------\n");
+    printf("1. Amul Cheese         Rs.10\n");
+    printf("2. Five Star Chocolate Rs.20\n");
+    printf("3. Coke                Rs.25\n");
+    printf("4. Maza                Rs.30\n");
+    printf("5. Samosa              Rs.10\n");
+    printf("6. Milk shake          Rs.70\n");
+    printf("7. Ice cream           Rs.50\n");
+    printf("8. Doritos             Rs.50\n");
+    printf("9. Kinderjoy           Rs.60\n");
+    printf("10.Thumsup             Rs.25\n");
+    printf("11.Pulpy orange        Rs.25\n");
+    printf("---------------------------------\n");
+    do {
+        printf("\nEnter item number:\n ");
+        scanf("%d", &item);
+        printf("\nEnter quantity:\n");
+        scanf("%d",&qty);
+        if (item >= 1 && item <= 11) 
+        {
+            int amount = prices[item] * qty;
+            total += amount;
+            count++;
+           printf("%d. %s :- %d x %d = Rs.%d\n",
+          count, names[item], qty, prices[item], amount);
+        } 
+        else 
+        {
+            printf("Invalid item! Try again.\n");
+        }
+        printf("\nContinue shopping? (Yes/No):");
+        scanf(" %c", &ch);
+    } 
+    while(ch == 'Y' ||  ch == 'y');
+    printf("\n======== FINAL BILL ========\n");
+    printf("Total Items: %d\n", count);
+    printf("Total Bill : Rs.%d\n", total);
+    printf("============================\n");
+    printf("Thank you for shopping!️\n");
+    return 0;
+}
