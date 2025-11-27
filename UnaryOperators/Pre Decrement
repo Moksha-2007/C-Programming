@@ -1,0 +1,12 @@
+//Write a code to print 10 to 1 numbers
+#include <stdio.h>
+int main() 
+{
+    int i = 11;                 
+    while (--i >= 1) 
+    { 
+        if (i <= 10)
+            printf("%d ", i);
+    }
+    return 0;
+}
